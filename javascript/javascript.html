@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Javascript</title>
+</head>
+
+<body>
+	Välkommen till sidan
+    <br>
+    <button onClick="skrivTal()"> Skriv in ett tal </button>
+	<script type="text/javascript">
+		function skrivTal()
+		{
+			var tal=prompt("Välj ett tal","Skriv in talet här");
+			while (isNaN(tal))
+			{
+				alert("Fel, du skrev inte ett tal");
+				var tal = prompt("Välj ett tal","Skriv in talet här");
+			}
+			
+				document.getElementById('talet').innerHTML = tal;
+		}
+	</script>
+    <br>
+    <p id="talet"> Ditt tal </p>
+</body>
+</html>
