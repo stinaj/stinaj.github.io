@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link href="enpassant.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="enpassant.png" type="image/gif">
+<title>En Passant | Veckans problem</title>
+</head>
+
+<body>
+	<header>
+    	<img id="header" src="banner.jpg" alt="Schack">
+    </header>
+    
+    <nav>
+    	<ul>
+        	<li><a href="enpassantindex.html"> Vår verksamhet </a></li>
+            <li><a href="enpassantseriespel.html"> Seriespel </a></li>
+            <li><a id="at" href="enpassantveckans.html"> Veckans problem </a></li>
+            <li><a href="enpassantrating.html"> Rating </a></li>
+        </ul>
+    </nav>
+    
+    <article>
+    	<h1 id="veckans"> Veckans problem </h1>
+    	<p>
+        	<h2> Vecka 17 </h2>
+            <p> Vit drar </p>
+             <img class="veckans" id="5clue" style="opacity:0" src="5clue.jpg">
+    		<img class="veckans" src="5.jpg">
+        	<img class="veckans" id="5solved" style="opacity: 0;" src="5solved.jpg">
+        	<br>
+            <button id="gömclue5" style="display:none" onClick="gömclue5()"> Göm ledtråd </button>
+            <button id="visaclue5" onClick="visaclue5()"> Visa ledtråd </button>
+            <button id="göm5" style="display:none" onClick="göm5()"> Göm lösning </button>
+        	<button id="visa5" onClick="visa5()"> Visa lösning </button>
+        
+        	<script type="text/javascript">
+				function visa5()
+				{
+					document.getElementById("5solved").style.opacity="100";
+					document.getElementById("visa5").style.display="none";
+					document.getElementById("göm5").style.display="unset";
+				}
+				
+				function göm5()
+				{
+					document.getElementById("5solved").style.opacity="0";
+					document.getElementById("göm5").style.display="none";
+					document.getElementById("visa5").style.display="unset";
+				}
+				
+				function visaclue5()
+				{
+					document.getElementById("5clue").style.opacity="100";
+					document.getElementById("visaclue5").style.display="none";
+					document.getElementById("gömclue5").style.display="unset";
+				}
+				
+				function gömclue5()
+				{
+					document.getElementById("5clue").style.opacity="0";
+					document.getElementById("gömclue5").style.display="none";
+					document.getElementById("visaclue5").style.display="unset";
+				}
+			</script>
+     	</p>
+        <p>
+        	<h2> Vecka 16 </h2>
+            <p> Vit drar </p>
+            <img class="veckans" id="4clue" style="opacity:0" src="4clue.jpg">
+    		<img class="veckans" src="4.jpg">
+        	<img class="veckans" id="4solved" style="opacity: 0;" src="4solved.jpg">
+        	<br>
+            <button id="gömclue4" style="display:none" onClick="gömclue4()"> Göm ledtråd </button>
+            <button id="visaclue4" onClick="visaclue4()"> Visa ledtråd </button>
+        	<button id="göm4" style="display:none" onClick="göm4()"> Göm lösning </button>
+        	<button id="visa4" onClick="visa4()"> Visa lösning </button>
+        
+        	<script type="text/javascript">
+				function visa4()
+				{
+					document.getElementById("4solved").style.opacity="100";
+					document.getElementById("visa4").style.display="none";
+					document.getElementById("göm4").style.display="unset";
+				}
+				
+				function göm4()
+				{
+					document.getElementById("4solved").style.opacity="0";
+					document.getElementById("göm4").style.display="none";
+					document.getElementById("visa4").style.display="unset";
+				}
+				
+				function visaclue4()
+				{
+					document.getElementById("4clue").style.opacity="100";
+					document.getElementById("visaclue4").style.display="none";
+					document.getElementById("gömclue4").style.display="unset";
+				}
+				
+				function gömclue4()
+				{
+					document.getElementById("4clue").style.opacity="0";
+					document.getElementById("gömclue4").style.display="none";
+					document.getElementById("visaclue4").style.display="unset";
+				}
+			</script>
+     	</p>
+        <p>
+        	<h2> Vecka 15 </h2>
+            <p> Svart drar </p>
+            <img class="veckans" id="3clue" style="opacity:0" src="3clue.jpg">
+    		<img class="veckans" src="3.jpg">
+        	<img class="veckans" id="3solved" style="opacity: 0;" src="3solved.jpg">
+        	<br>
+            <button id="gömclue3" style="display:none" onClick="gömclue3()"> Göm ledtråd </button>
+            <button id="visaclue3" onClick="visaclue3()"> Visa ledtråd </button>
+            <button id="göm3" style="display:none" onClick="göm3()"> Göm lösning </button>
+        	<button id="visa3" onClick="visa3()"> Visa lösning </button>
+        
+        	<script type="text/javascript">
+				function visa3()
+				{
+					document.getElementById("3solved").style.opacity="100";
+					document.getElementById("visa3").style.display="none";
+					document.getElementById("göm3").style.display="unset";
+				}
+				
+				function göm3()
+				{
+					document.getElementById("3solved").style.opacity="0";
+					document.getElementById("göm3").style.display="none";
+					document.getElementById("visa3").style.display="unset";
+				}
+				
+				function visaclue3()
+				{
+					document.getElementById("3clue").style.opacity="100";
+					document.getElementById("visaclue3").style.display="none";
+					document.getElementById("gömclue3").style.display="unset";
+				}
+				
+				function gömclue3()
+				{
+					document.getElementById("3clue").style.opacity="0";
+					document.getElementById("gömclue3").style.display="none";
+					document.getElementById("visaclue3").style.display="unset";
+				}
+			</script>
+     	</p>
+        <p>
+        	<h2> Vecka 14 </h2>
+            <p> Vit drar </p>
+            <img class="veckans" id="2clue" style="opacity:0" src="2clue.jpg">
+    		<img class="veckans" src="2.jpg">
+        	<img class="veckans" id="2solved" style="opacity: 0;" src="2solved.jpg">
+        	<br>
+            <button id="gömclue2" style="display:none" onClick="gömclue2()"> Göm ledtråd </button>
+            <button id="visaclue2" onClick="visaclue2()"> Visa ledtråd </button>
+            <button id="göm2" style="display:none" onClick="göm2()"> Göm lösning </button>
+        	<button id="visa2" onClick="visa2()"> Visa lösning </button>
+        
+        	<script type="text/javascript">
+				function visa2()
+				{
+					document.getElementById("2solved").style.opacity="100";
+					document.getElementById("visa2").style.display="none";
+					document.getElementById("göm2").style.display="unset";
+				}
+				
+				function göm2()
+				{
+					document.getElementById("2solved").style.opacity="0";
+					document.getElementById("göm2").style.display="none";
+					document.getElementById("visa2").style.display="unset";
+				}
+				
+				function visaclue2()
+				{
+					document.getElementById("2clue").style.opacity="100";
+					document.getElementById("visaclue2").style.display="none";
+					document.getElementById("gömclue2").style.display="unset";
+				}
+				
+				function gömclue2()
+				{
+					document.getElementById("2clue").style.opacity="0";
+					document.getElementById("gömclue2").style.display="none";
+					document.getElementById("visaclue2").style.display="unset";
+				}
+			</script>
+     	</p>
+        <p>
+        	<h2> Vecka 13 </h2>
+            <p> Vit drar </p>
+            <img class="veckans" id="1clue" style="opacity: 0" src="1clue.jpg">
+    		<img class="veckans" src="1.jpg">
+            <img class="veckans" id="1solved" style="opacity: 0;" src="1solved.jpg">
+        	<br>
+            <button id="gömclue1" style="display:none" onClick="gömclue1()"> Göm ledtråd </button>
+            <button id="visaclue1" onClick="visaclue1()"> Visa ledtråd </button>
+            <button id="göm1" style="display:none" onClick="göm1()"> Göm lösning </button>
+        	<button id="visa1" onClick="visa1()"> Visa lösning </button>
+        
+        	<script type="text/javascript">
+				function visa1()
+				{
+					document.getElementById("1solved").style.opacity="100";
+					document.getElementById("visa1").style.display="none";
+					document.getElementById("göm1").style.display="unset";
+				}
+				
+				function göm1()
+				{
+					document.getElementById("1solved").style.opacity="0";
+					document.getElementById("göm1").style.display="none";
+					document.getElementById("visa1").style.display="unset";
+				}
+				
+				function visaclue1()
+				{
+					document.getElementById("1clue").style.opacity="100";
+					document.getElementById("visaclue1").style.display="none";
+					document.getElementById("gömclue1").style.display="unset";
+				}
+				
+				function gömclue1()
+				{
+					document.getElementById("1clue").style.opacity="0";
+					document.getElementById("gömclue1").style.display="none";
+					document.getElementById("visaclue1").style.display="unset";
+				}
+            </script>
+       	</p>
+    </article>
+    
+    <footer>
+    	<img id="märke" src="enpassant.png" alt="En Passant">
+        <div id="enpassant"> En Passant </div>
+        <div id="kontakt">
+        	<a href="enpassantkontakt.html"> Kontakta oss </a>
+        </div>
+        <div id="språk">
+        	<img src="engelska.jpg" alt="Engelska">
+        	<img src="svenska.jpg" alt="Svenska">
+        </div>
+        <div id="update"> Senast uppdaterad: 2017-05-03 </div>
+    </footer>
+</body>
+</html>
