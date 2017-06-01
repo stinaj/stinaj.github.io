@@ -1,0 +1,51 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link href="foodporn.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="pizza.JPG" type="image/gif">
+<title> Foodporn </title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li> <button onclick="allmat"> All mat </button> </li>
+      <li> <button onclick="vegetariskt"> Vegetariskt </button> </li>
+      <li> <button onclick="veganskt"> Veganskt </button> </li>
+    </ul>
+  </nav>
+  <article>
+    <figure>
+      <img class="meat" src="pizza.JPG" alt="pizza">
+    </figure>
+  </article>
+</body>
+
+<script type="javascript">
+  function allmat()
+  {
+    document.getElementsByClassName("meat").style.display="run-in";
+    document.getElementsByClassName("vegetariskt").style.display="run-in";
+    document.getElementsByClassName("vegan").style.display="run-in";
+  }
+
+  function vegetariskt()
+  {
+    document.getElementsByClassName("meat").style.display="none";
+    document.getElementsByClassName("vegetariskt").style.display="run-in";
+    document.getElementsByClassName("vegan").style.display="none";
+  }
+
+  function veganskt()
+  {
+    document.getElementsByClassName("meat").style.display="none";
+    document.getElementsByClassName("vegetariskt").style.display="none";
+    document.getElementsByClassName("vegan").style.display="run-in";
+  }
+</script>
