@@ -38,3 +38,8 @@ article{
   text-align: center;
   float: left;
 }
+
+figure{
+  width: 30%;
+  height: 30%;
+}
